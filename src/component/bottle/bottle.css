@@ -1,0 +1,42 @@
+.bottle-card {
+    border: 2px solid tomato;
+    border-radius: 20px;
+    padding: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .bottle-card img {
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+  }
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .selected-cart{
+    display: flex;
+    gap: 10px;
+   
+  }
+  
+  .selected-cart img{
+    width: 100px;
+    margin:10px;
+  }
+  
+  
